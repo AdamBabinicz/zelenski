@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import img from '../../assets/images/7.png'
+import img1 from '../../assets/images/3.png'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -129,6 +130,7 @@ const Contact = () => {
             uczyć w 2017. Pierwszą ukraińskojęzyczną produkcję filmową z jego
             udziałem zaczęto kręcić w tym samym roku.
           </p>
+          <img src={img1} alt="..." />
         </div>
         <div className="map-wrap">
           {/* <MapContainer center={[44.96366, 19.61045]} zoom={13}>
