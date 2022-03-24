@@ -116,6 +116,13 @@ img.ukr {
   font-size: 19px;
   font-family: 'Luxurious Roman', cursive;
 
+  img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   p {
     margin-bottom: 1rem;
   }
