@@ -31,7 +31,7 @@ const Home = () => {
             <span className={`${letterClass} _18`}>s</span>
             <span className={`${letterClass} _19`}>k</span>
             <span className={`${letterClass} _21`}>i</span>
-            <br />
+            {/* <br /> */}&nbsp;
             <span className={`${letterClass} _22`}>p</span>
             <span className={`${letterClass} _23`}>r</span>
             <span className={`${letterClass} _24`}>e</span>
@@ -41,13 +41,14 @@ const Home = () => {
             <span className={`${letterClass} _28`}>e</span>
             <span className={`${letterClass} _29`}>n</span>
             <span className={`${letterClass} _30`}>t</span>
+            <br />
             <img src={LogoTitle} alt="..." />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
               idx={15}
             />
-            <br />
+            {/* <br /> */}&nbsp;
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
