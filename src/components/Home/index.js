@@ -43,6 +43,7 @@ const Home = () => {
             <span className={`${letterClass} _30`}>t</span>
             <br />
             <img src={LogoTitle} alt="..." />
+            <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
