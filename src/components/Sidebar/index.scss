@@ -1,7 +1,7 @@
 .nav-bar {
   background: #181818;
   width: 60px;
-  height: 130%;
+  height: 100%;
   position: absolute;
   top: 0;
   z-index: 3;
@@ -122,6 +122,7 @@
 
 @media only screen and (max-width: 768px) {
   .nav-bar {
-    min-height: 150%;
+    // min-height: 150%;
+    height: auto !important;
   }
 }
