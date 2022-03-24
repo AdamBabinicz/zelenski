@@ -1,0 +1,96 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    max-height: 90%;
+  }
+  h2 {
+    color: #fff;
+    font-size: 53px;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 400;
+
+    &::before {
+      content: 'Zabijanie cywilów jest zbrodnią!';
+      font-family: 'Caveat', cursive;
+      font-size: 22px;
+      color: #ffd700;
+      position: absolute;
+      margin-top: -20px;
+      left: 15px;
+      opacity: 0.6;
+    }
+
+    &::after {
+      content: 'Walczcie. Idźcie na wojnę i pomóżcie';
+      font-family: 'Caveat', cursive;
+      color: #ffd700;
+      font-size: 22px;
+      position: absolute;
+      display: inline-block;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+    img {
+      width: 32px;
+      margin-left: 20px;
+      opacity: 0;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+  h3 {
+    color: #ffd700;
+    margin: 20px 0;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: 'Luxurious Roman', cursive;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background: #006eff;
+      color: #ffd700;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-page .text-zone {
+    margin-top: 10rem;
+  }
+  .text-zone {
+    left: 17% !important;
+  }
+  h2 {
+    font-size: 33px !important;
+
+    &::after {
+      font-size: 19px !important;
+    }
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+}

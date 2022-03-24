@@ -1,0 +1,147 @@
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.top-tags {
+  bottom: auto;
+  top: 35px;
+
+  img {
+    width: 20rem;
+  }
+}
+
+.tags {
+  color: #ffd700;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  font-size: 18px;
+  font-family: 'Caveat', cursive;
+}
+.bottom-tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+
+  img {
+    width: 30rem;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.bottom-tag-html {
+  img {
+    width: 10rem;
+  }
+}
+
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+}
+
+.container.contact-page,
+.container.about-page {
+  .text-zone {
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38%;
+    vertical-align: middle;
+    display: table-cell;
+    min-height: 100%;
+    max-height: content;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+
+    h2 {
+      font-size: 53px;
+      font-family: 'Luxurious Roman', cursive;
+      color: #ffd700;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 40px;
+      left: -10px;
+
+      &:before {
+        content: '';
+        font-family: 'Caveat', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -10px;
+        opacity: 0.6;
+        line-height: 18px;
+      }
+
+      &:after {
+        content: '';
+        font-family: 'Caveat', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        line-height: 18px;
+        position: absolute;
+        left: -30px;
+        bottom: -20px;
+        margin-left: 20px;
+        opacity: 0.6;
+      }
+    }
+
+    p {
+      font-size: 19px;
+      color: #fff;
+      // font-family: 'Caveat', cursive;
+      font-family: 'Luxurious Roman', cursive;
+      font-weight: 300;
+      max-width: fit-content;
+      animation: pulse 1s;
+      margin-bottom: 1rem;
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1.2s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.3s;
+      }
+    }
+  }
+
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container.contact-page,
+  .container.about-page,
+  .text-zone {
+    min-height: 100vh;
+    width: 100%;
+    background: transparent !important;
+  }
+}
