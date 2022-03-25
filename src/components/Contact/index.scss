@@ -137,6 +137,9 @@ img.ukr {
 }
 
 @media only screen and (max-width: 768px) {
+  img.ukr {
+    margin: 12rem auto 0;
+  }
   .container.contact-page,
   .container.about-page,
   .text-zone {
