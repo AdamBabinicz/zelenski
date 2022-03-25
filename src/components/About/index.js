@@ -36,25 +36,27 @@ const About = () => {
           </h2>
           <p>
             – ukraiński polityk, satyryk, aktor, scenarzysta, prezenter
-            telewizyjny, producent filmowy i przedsiębiorca, z wykształcenia
-            prawnik. Od 2019 prezydent Ukrainy.
+            telewizyjny, producent filmowy i&nbsp;przedsiębiorca,
+            z&nbsp;wykształcenia prawnik. Od 2019 prezydent Ukrainy.
           </p>
           <p>
             W trakcie jego prezydentury wiosną 2021 Rosja zaczęła znacząco
-            zwiększać liczbę swoich żołnierzy oraz sprzętu wojskowego w pobliżu
-            swojej granicy z Ukrainą. 24 lutego 2022 wojska rosyjskie na rozkaz
-            prezydenta Władimira Putina rozpoczęły inwazję na Ukrainę. Ukraiński
-            prezydent tego samego dnia ogłosił wprowadzenie stanu wojennego i
-            powszechną mobilizację. Dwa dni później Wołodymyr Zełenski odmówił
-            skorzystania z amerykańskiej propozycji ewakuowania się z Kijowa.
-            Jego postawa i przywództwo w trakcie rosyjskiej inwazji przyniosły
-            mu międzynarodową rozpoznawalność i uznanie, liczni zagraniczni
-            komentatorzy określili go mianem męża stanu i narodowego bohatera.
+            zwiększać liczbę swoich żołnierzy oraz sprzętu wojskowego
+            w&nbsp;pobliżu swojej granicy z&nbsp;Ukrainą. 24 lutego 2022 wojska
+            rosyjskie na rozkaz prezydenta Władimira Putina rozpoczęły inwazję
+            na Ukrainę. Ukraiński prezydent tego samego dnia ogłosił
+            wprowadzenie stanu wojennego i&nbsp;powszechną mobilizację. Dwa dni
+            później Wołodymyr Zełenski odmówił skorzystania z&nbsp;
+            amerykańskiej propozycji ewakuowania się z&nbsp;Kijowa. Jego postawa
+            i&nbsp;przywództwo w&nbsp;trakcie rosyjskiej inwazji przyniosły mu
+            międzynarodową rozpoznawalność i&nbsp;uznanie, liczni zagraniczni
+            komentatorzy określili go mianem męża stanu i&nbsp;narodowego
+            bohatera.
           </p>
           <p>
             - Ukraina jest bramą dla rosyjskiego wojska, które chce wkroczyć do
             Europy, ale barbarzyństwo nie może wejść - oświadczył Zełenski.  
-            Relacjonował swoją poranną rozmowę z papieżem Franciszkiem:
+            Relacjonował swoją poranną rozmowę z&nbsp;papieżem Franciszkiem:
             "powiedziałem, że nasz naród stał się wojskiem". Prezydent mówił, że
             dotychczas zginęło na Ukrainie 117 dzieci.
           </p>

@@ -118,17 +118,17 @@ const Contact = () => {
         </div>
         <div className="info-map">
           <p>
-            6 września 2003 zawarł związek małżeński z Ołeną z domu Kijaszko.
-            Para uczęszczała do równoległych klas tej samej szkoły, znajomość
-            nawiązali jednak dopiero na studiach, gdy Ołena Kijaszko zajmowała
-            się pisaniem tekstów do grupy kabaretowej „95-j kwartał”.
+            6 września 2003 zawarł związek małżeński z&nbsp;Ołeną z&nbsp;domu
+            Kijaszko. Para uczęszczała do równoległych klas tej samej szkoły,
+            znajomość nawiązali jednak dopiero na studiach, gdy Ołena Kijaszko
+            zajmowała się pisaniem tekstów do grupy kabaretowej „95-j kwartał”.
           </p>
           <p>
-            Mają dwoje dzieci: córkę Ołeksandrę (ur. 2004) i syna Kiryłła (ur.
-            2013). Wołodymyr Zełenski pochodzi z rodziny ukraińskich Żydów.
-            Posługiwał się językiem rosyjskim, języka ukraińskiego zaczął się
-            uczyć w 2017. Pierwszą ukraińskojęzyczną produkcję filmową z jego
-            udziałem zaczęto kręcić w tym samym roku.
+            Mają dwoje dzieci: córkę Ołeksandrę (ur. 2004) i&nbsp;syna Kiryłła
+            (ur. 2013). Wołodymyr Zełenski pochodzi z&nbsp;rodziny ukraińskich
+            Żydów. Posługiwał się językiem rosyjskim, języka ukraińskiego zaczął
+            się uczyć w&nbsp;2017. Pierwszą ukraińskojęzyczną produkcję filmową
+            z&nbsp;jego udziałem zaczęto kręcić w&nbsp;tym samym roku.
           </p>
           <img src={img1} alt="..." />
         </div>

@@ -48,7 +48,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://pl.pinterest.com"
+            href="//pl.pinterest.com/pin/601371356505165247"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com"
+            href="//www.youtube.com/watch?v=Cl0pFKccSD4"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -75,7 +75,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com"
+            href="//twitter.com/ZelenskyyUa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
             target="_blank"
             rel="noopener noreferrer"
           >
