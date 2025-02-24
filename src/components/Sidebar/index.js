@@ -21,7 +21,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src={LogoS} alt="..." />
+        {/* <img src={LogoS} alt="..." /> */}
         <img className="sub-logo" src={LogoSubtitle} alt="..." />
       </Link>
       <nav>
