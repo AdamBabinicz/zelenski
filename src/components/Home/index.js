@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import LogoTitle from '../../assets/images/1.webp'
+import LogoTitle from '../../assets/images/8.png'
 import { Link } from 'react-router-dom'
 import './index.scss'
 import Loader from 'react-loaders'
